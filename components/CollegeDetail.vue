@@ -1,51 +1,39 @@
 <template>
     <div class="college-detail-wrap">
         <div class="detail2">
-            <img
-                data-src="/_nuxt/img/1.afe4dbe.png"
-                src="/_nuxt/img/1.afe4dbe.png"
-                lazy="loaded"
-            /><img
-                data-src="/_nuxt/img/2.8e53140.png"
-                src="/_nuxt/img/2.8e53140.png"
-                lazy="loaded"
-            /><img
-                data-src="/_nuxt/img/3.ecaa197.png"
-                src="/_nuxt/img/3.ecaa197.png"
-                lazy="loaded"
-            /><img
-                data-src="/_nuxt/img/4.2ca955a.png"
-                src="/_nuxt/img/4.2ca955a.png"
-                lazy="loaded"
-            /><img
-                data-src="/_nuxt/img/5.ff3987b.png"
-                src="/_nuxt/img/5.ff3987b.png"
-                lazy="loaded"
-            /><img
-                data-src="/_nuxt/img/6.95d97aa.png"
-                src="/_nuxt/img/6.95d97aa.png"
-                lazy="loaded"
-            /><img
-                data-src="/_nuxt/img/7.e1fea4a.png"
-                src="/_nuxt/img/7.e1fea4a.png"
-                lazy="loaded"
-            /><img
-                data-src="/_nuxt/img/8.e2f3137.png"
-                src="/_nuxt/img/8.e2f3137.png"
-                lazy="loaded"
-            /><img
-                data-src="/_nuxt/img/9.fdb3348.png"
-                src="/_nuxt/img/9.fdb3348.png"
-                lazy="loaded"
-            /><img
-                data-src="/_nuxt/img/10.a755f07.png"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                lazy="loading"
-            /><img
-                data-src="/_nuxt/img/11.47b9106.png"
-                src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-                lazy="loading"
+            <img                
+                v-lazy="item"
+                v-for="(item, index) in list"
+                :key="index"
             />
         </div>
     </div>
 </template>
+<script>
+import Config from '@/assets/js/config.js';
+import { getQueryString } from '@/assets/js/util.js';
+export default {
+    data() {
+        return {            
+            list: []
+        }
+    },
+    async fetch() {
+        let category = getQueryString('category');
+        let id = getQueryString('id');
+        let url = Config.httpServer + '/college/detail?category='+category+'&id='+id;  
+        const res = await fetch(url).then(res =>
+            res.json()
+        );
+        this.info = res.data || {};  
+        if (this.info.content) {
+            this.list = this.info.content.split(',');
+        } 
+        
+    },
+    fetchOnServer: false,
+    mounted() {
+        console.log('mounted college detail')
+    }
+}
+</script>

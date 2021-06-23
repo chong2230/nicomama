@@ -1,0 +1,16 @@
+categorys: [
+    // { id:1, category_id:1, name: '推荐', url: '/college/detail?category=1', menu_id: 2 },
+    // { id:2, category_id:2, name: '喂养指南', url: '/college/detail?category=1&id=8268', menu_id: 2 },
+    // { id:3, category_id:3, name: '孕产健康', url: '/college/detail?category=1&id=8268', menu_id: 2 },
+    // { id:4, category_id:4, name: '婴儿护理', url: '/college/detail?category=1&id=8268', menu_id: 2 },
+    // { id:5, category_id:5, name: '睡眠引导', url: '/college/detail?category=1&id=8268', menu_id: 2 },
+    // { id:6, category_id:6, name: '小儿健康', url: '/college/detail?category=1&id=8268', menu_id: 2 },
+    // { id:7, category_id:7, name: '亲子陪伴', url: '/college/detail?category=1&id=8268', menu_id: 2 },
+    // { id:8, category_id:8, name: '早期发展', url: '/college/detail?category=1&id=8268', menu_id: 2 },
+    // { id:9, category_id:9, name: '证明管教', url: '/college/detail?category=1&id=8268', menu_id: 2 },
+    // { id:10, category_id:10, name: '漫画吐槽', url: '/college/detail?category=1&id=8268', menu_id: 2 },
+]
+
+list: ["/_nuxt/img/1.afe4dbe.png", "/_nuxt/img/2.8e53140.png", "/_nuxt/img/3.ecaa197.png", "/_nuxt/img/4.2ca955a.png",
+                "/_nuxt/img/5.ff3987b.png", "/_nuxt/img/6.95d97aa.png", "/_nuxt/img/7.e1fea4a.png", "/_nuxt/img/8.e2f3137.png",
+                "/_nuxt/img/9.fdb3348.png", "/_nuxt/img/10.a755f07.png", "/_nuxt/img/11.47b9106.png" ]

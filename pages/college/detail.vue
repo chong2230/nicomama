@@ -26,6 +26,7 @@ export default {
         }
     },
     mounted() {
+        console.log('mounted detail')
         let category = getQueryString('category');
         this.$store.commit('setNavIndex', parseInt(category) - 1);
     },
@@ -34,7 +35,7 @@ export default {
             console.log('goDetail: ', index);
             // window.location.href = '/?defaultIndex=' + index;
             // this.$route.replace('/?defaultIndex=' + index);
-            location.href = Config.apiHost + '/?defaultIndex=' + index;
+            window.location.href = Config.baseUrl + '/?defaultIndex=' + index;
         }
     }
 }

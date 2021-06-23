@@ -43,3 +43,7 @@ Nuxt 服务器启动后，会将static文件目录映射到根路径/下。
 3. 滚动条滚动到指定位置(锚点)的不同实现方式
 
 [https://www.cnblogs.com/catherLee/p/13426069.html](https://www.cnblogs.com/catherLee/p/13426069.html)
+
+4. Nuxt引入vue-lazyload图片懒加载
+
+[https://blog.csdn.net/AK852369/article/details/115611739](https://blog.csdn.net/AK852369/article/details/115611739)
