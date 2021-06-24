@@ -47,3 +47,7 @@ Nuxt 服务器启动后，会将static文件目录映射到根路径/下。
 4. Nuxt引入vue-lazyload图片懒加载
 
 [https://blog.csdn.net/AK852369/article/details/115611739](https://blog.csdn.net/AK852369/article/details/115611739)
+
+5. Nuxt使用vue-awesome-swiper的填坑过程
+
+[https://www.yuque.com/shuimen-jl49h/ebptzz/xazwgv](https://www.yuque.com/shuimen-jl49h/ebptzz/xazwgv)

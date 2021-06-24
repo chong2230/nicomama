@@ -14,3 +14,118 @@ categorys: [
 list: ["/_nuxt/img/1.afe4dbe.png", "/_nuxt/img/2.8e53140.png", "/_nuxt/img/3.ecaa197.png", "/_nuxt/img/4.2ca955a.png",
                 "/_nuxt/img/5.ff3987b.png", "/_nuxt/img/6.95d97aa.png", "/_nuxt/img/7.e1fea4a.png", "/_nuxt/img/8.e2f3137.png",
                 "/_nuxt/img/9.fdb3348.png", "/_nuxt/img/10.a755f07.png", "/_nuxt/img/11.47b9106.png" ]
+
+<div
+    class="
+        teacher-list
+        swiper-no-swiping
+        swiper-container
+        swiper-container-initialized
+        swiper-container-horizontal
+    "
+>
+    <div
+        class="swiper-wrapper"
+        style="
+            width: 1760px;
+            transform: translate3d(-440px, 0px, 0px);
+            transition-duration: 0ms;
+        "
+    >
+        <div
+            class="swiper-slide"
+            style="margin-right: 30px"
+        >
+            <div class="teacher-item">
+                <img src="/_nuxt/img/t1.be5b479.png" />
+                <p>
+                    浙江大学临床医学专业硕士，超过2000万粉丝的母婴自媒体矩阵“年糕妈妈”创始人
+                </p>
+            </div>
+        </div>
+        <div
+            class="swiper-slide swiper-slide-prev"
+            style="margin-right: 30px"
+        >
+            <div class="teacher-item">
+                <img src="/_nuxt/img/t2.fb68698.png" />
+                <p>
+                    游戏育儿全球创始人、美国杜克大学心理学博士，被誉为亲子沟通中“最懂孩子的人”
+                </p>
+            </div>
+        </div>
+        <div
+            class="swiper-slide swiper-slide-active"
+            style="margin-right: 30px"
+        >
+            <div class="teacher-item">
+                <img src="/_nuxt/img/t3.f5ad9bd.png" />
+                <p>
+                    台湾大学临床医学博士、台湾一级医院马偕儿童医院主治医生
+                </p>
+            </div>
+        </div>
+        <div
+            class="swiper-slide swiper-slide-next"
+            style="margin-right: 30px"
+        >
+            <div class="teacher-item">
+                <img src="/_nuxt/img/t4.2e3d414.png" />
+                <p>
+                    国际学校、双语学校12年教学经验、拥有TEFL国际英语教师资格证
+                </p>
+            </div>
+        </div>
+        <div
+            class="swiper-slide"
+            style="margin-right: 30px"
+        >
+            <div class="teacher-item">
+                <img src="/_nuxt/img/t5.011ef34.png" />
+                <p>
+                    Breakthrough parenting
+                    的认证导师，致力于breaking
+                    parenting的全国推广
+                </p>
+            </div>
+        </div>
+        <div
+            class="swiper-slide"
+            style="margin-right: 30px"
+        >
+            <div class="teacher-item">
+                <img src="/_nuxt/img/t6.88a82b2.png" />
+                <p>
+                    国家卫计委科学育儿项目专家组成员、国家开放大学“启步计划”项目特聘专家
+                </p>
+            </div>
+        </div>
+        <div
+            class="swiper-slide"
+            style="margin-right: 30px"
+        >
+            <div class="teacher-item">
+                <img src="/_nuxt/img/t7.4fac3ea.png" />
+                <p>
+                    北京奕阳教育集团11所幼儿园教育教学主管、曾任上海教育科学研究院学前教育部研究员
+                </p>
+            </div>
+        </div>
+        <div
+            class="swiper-slide"
+            style="margin-right: 30px"
+        >
+            <div class="teacher-item">
+                <img src="/_nuxt/img/t8.a10f5cd.png" />
+                <p>
+                    前Apple（中国）公司创意培训师、人气插画师、手工创意师
+                </p>
+            </div>
+        </div>
+    </div>
+    <span
+        class="swiper-notification"
+        aria-live="assertive"
+        aria-atomic="true"
+    ></span>
+</div>                

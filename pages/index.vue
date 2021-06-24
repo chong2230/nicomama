@@ -6,6 +6,8 @@
     <!-- <nicobox /> -->
     <Box ref="nico" :info="nico" />    
     <Box ref="steamkc" :info="steamkc" /> 
+    <Advisor />
+    <Teacher />
     <About ref="about" />
     <Introduce ref="introduce" />
     <RightBtnGroup />
@@ -199,7 +201,33 @@ export default {
   }
 </script>
 
-<style>
+<style lang="scss">
+.zydjytd {
+    background: #fff;
+    font-family: PingFangSC-Regular;
+    .zydjytd-content {
+        width: 1024px;
+        margin: 0 auto;
+        padding-top: 48px;
+        h2 {
+            margin-bottom: 7px;
+            font-size: 34px;
+            font-family: PingFangSC-Semibold;
+            font-weight: 600;
+            color: #222;
+            line-height: 48px;
+            letter-spacing: 1px;
+        }
+        h3 {
+            font-size: 18px;
+            font-family: PingFangSC-Light;
+            font-weight: 300;
+            color: #666;
+            line-height: 25px;
+            margin-bottom: 53px;
+        }        
+    }
+}
 /* .container {
   margin: 0 auto;
   min-height: 100vh;
