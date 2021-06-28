@@ -8,6 +8,7 @@
     <Box ref="steamkc" :info="steamkc" /> 
     <Advisor />
     <Teacher />
+    <brand-partner ref="brandPartner" />
     <About ref="about" />
     <Introduce ref="introduce" />
     <RightBtnGroup />
@@ -19,8 +20,9 @@
 import MustRead from '../components/MustRead.vue'
 import Nicobox from '../components/Nicobox.vue'
 import { getQueryString } from '../assets/js/util.js'
+import BrandPartner from '../components/BrandPartner.vue'
 export default {
-    components: { MustRead, Nicobox },
+    components: { MustRead, Nicobox, BrandPartner },
     data() {
       return {
         curIndex: 0,
@@ -161,7 +163,7 @@ export default {
     methods: {
       //点击导航铆钉到指定位置
       goDetail(index) {
-          let single = ['', 'header', 'nico', 'steamkc', 'about', 'introduce', 'footer']
+          let single = ['', 'header', 'nico', 'steamkc', 'about', 'brandPartner', 'footer']
           this.current = index;
           let height = Number(this.$refs['header'].$el.offsetHeight)// 导航的高度
           let toTop = this.$refs[single[index]].$el.offsetTop  // index对应内容的高度

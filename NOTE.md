@@ -51,3 +51,5 @@ Nuxt 服务器启动后，会将static文件目录映射到根路径/下。
 5. Nuxt使用vue-awesome-swiper的填坑过程
 
 [https://www.yuque.com/shuimen-jl49h/ebptzz/xazwgv](https://www.yuque.com/shuimen-jl49h/ebptzz/xazwgv)
+
+[https://blog.csdn.net/u012570307/article/details/107203851/](https://blog.csdn.net/u012570307/article/details/107203851/)
